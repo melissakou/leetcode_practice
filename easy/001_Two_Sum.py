@@ -1,12 +1,12 @@
 class Solution:
-    # Brute Force O(n^2)
+    # 1. brute force O(n^2)
     # def twoSum(self, nums, target):
     #     for i in range(len(nums)):
     #         for j in range(i+1, len(nums)):
     #             if nums[i] + nums[j] == target:
     #                 return [i, j]
 
-    # Hash table to store the seen numbers
+    # 2. hash table to store the seen numbers
     def twoSum(self, nums, target):
         seen_value = {}
         for i, num in enumerate(nums):
@@ -16,7 +16,7 @@ class Solution:
             else:
                 seen_value[num] = i
 
-    # Two Pointers
+    # 3. sort the list and use two pointers
     # def twoSum(self, nums, target):
     #     nums_sorted = [(value, i) for i, value in enumerate(nums)]
     #     nums_sorted.sort()
