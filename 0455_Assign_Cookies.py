@@ -1,4 +1,9 @@
+from utils import timer
+
 class Solution:
+
+    # Solution 1: Greedy + Two Pointer
+    @timer
     def findContentChildren(self, g, s):
         g.sort()
         s.sort()
@@ -10,7 +15,7 @@ class Solution:
                 s_pointer += 1
         
         return num_content
-        
+
 
 if __name__ == "__main__":
     sol = Solution()
