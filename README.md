@@ -8,3 +8,4 @@ full record [here](https://melissakuo.notion.site/9eee0cf6d7734f38aa69e9e95f32cc
 | 135 | [Candy](https://leetcode.com/problems/candy/) | Haed | Greedy, forward + backward |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | Greedy |
 | 445 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy + Two Pointers |
+| 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | 1. Greedy, Check every position <br> 2. Greedy, Jump position |
