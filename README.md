@@ -10,3 +10,4 @@ Record my leetcode practices (using python).
 | 445 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy + Two Pointers |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | Greedy |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | 1. Greedy, Check every position <br> 2. Greedy, Jump position |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | 1. Greedy, counting frequency <br> 2. Greedy, last appear |
