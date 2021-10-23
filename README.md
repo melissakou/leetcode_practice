@@ -5,6 +5,7 @@ Record my leetcode practices (using python).
 | # | Title | Difficulty | Short Notes |
 |---|-------|------------|-------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 1. brute force O(n^2) <br> 2. hash table to store the seen numbers <br> 3. sort the list and use two pointers
+| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 1. Combine & Sort <br> 2. Two Pointers |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | 1. Greedy, find peak & valley <br> 2. Greedy, every greedy |
 | 135 | [Candy](https://leetcode.com/problems/candy/) | Haed | Greedy, forward + backward |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | 1. save seen number to hashtable <br> 2. Two Pointers |
