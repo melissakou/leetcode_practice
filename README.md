@@ -8,6 +8,7 @@ Record my leetcode practices (using python).
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 1. Combine & Sort <br> 2. Two Pointers |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | 1. Greedy, find peak & valley <br> 2. Greedy, every greedy |
 | 135 | [Candy](https://leetcode.com/problems/candy/) | Haed | Greedy, forward + backward |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | 1. Set <br> 2. Two Pointers (Floyd's cycle-finding algorithm) |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | 1. save seen number to hashtable <br> 2. Two Pointers |
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | Medium | Greedy, sort by height |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | Greedy |
