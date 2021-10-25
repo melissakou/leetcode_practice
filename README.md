@@ -18,4 +18,5 @@ Record my leetcode practices (using python).
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | 1. Greedy, Check every position <br> 2. Greedy, Jump position |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | 1. Two Pointers <br> 2. Store seen in hashtable <br> 3. Sum of Two Squares Theorem |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | Medium | Greedy |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | Easy | 1. Two Pointers <br> 2. Two Pointers + Recursive |
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | 1. Greedy, counting frequency <br> 2. Greedy, last appear |
