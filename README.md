@@ -11,6 +11,7 @@ Record my leetcode practices (using python).
 | 135 | [Candy](https://leetcode.com/problems/candy/) | Haed | Greedy, forward + backward |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | 1. Set <br> 2. Two Pointers (Floyd's cycle-finding algorithm) |
 | 167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Easy | 1. save seen number to hashtable <br> 2. Two Pointers |
+| 340 | [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | Medium | Two Pointers |
 | 406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | Medium | Greedy, sort by height |
 | 435 | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | Greedy |
 | 445 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy + Two Pointers |
