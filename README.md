@@ -5,6 +5,7 @@ Record my leetcode practices (using python).
 | # | Title | Difficulty | Short Notes |
 |---|-------|------------|-------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 1. brute force O(n^2) <br> 2. hash table to store the seen numbers <br> 3. sort the list and use two pointers
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | 1. Binary Search <br> 2. Newton's Method |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | Two Pointers, Sliding Window |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 1. Combine & Sort <br> 2. Two Pointers |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | 1. Greedy, find peak & valley <br> 2. Greedy, every greedy |
