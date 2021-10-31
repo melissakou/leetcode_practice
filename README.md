@@ -21,6 +21,7 @@ Record my leetcode practices (using python).
 | 445 | [Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Greedy + Two Pointers |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | Medium | Greedy |
 | 524 | [Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/) | Medium | 1. Two Pointers <br> 2. Two Pointers, using string.find() |
+| 540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | Medium | Binary Search |
 | 605 | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/) | Easy | 1. Greedy, Check every position <br> 2. Greedy, Jump position |
 | 633 | [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers/) | Medium | 1. Two Pointers <br> 2. Store seen in hashtable <br> 3. Sum of Two Squares Theorem |
 | 665 | [Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/) | Medium | Greedy |
