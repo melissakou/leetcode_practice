@@ -5,6 +5,7 @@ Record my leetcode practices (using python).
 | # | Title | Difficulty | Short Notes |
 |---|-------|------------|-------|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 1. brute force O(n^2) <br> 2. hash table to store the seen numbers <br> 3. sort the list and use two pointers
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | 1. Merge & Sort <br> 2. Binary Search |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | 1. Binary Search <br> 2. Newton's Method |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | Two Pointers, Sliding Window |
