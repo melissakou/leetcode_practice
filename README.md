@@ -8,6 +8,7 @@ Record my leetcode practices (using python).
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | 1. Merge & Sort <br> 2. Binary Search |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | 1. Binary Search <br> 2. Newton's Method |
+| 75 | [Sort Colors] (https://leetcode.com/problems/sort-colors/) | Medium | 1. Built-in Sort <br> 2. Two Pointers (Dutch national flag problem) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | Two Pointers, Sliding Window |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | Binary Search |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 1. Combine & Sort <br> 2. Two Pointers |
