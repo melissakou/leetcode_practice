@@ -7,10 +7,11 @@ Record my leetcode practices (using python).
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | 1. brute force O(n^2) <br> 2. hash table to store the seen numbers <br> 3. sort the list and use two pointers
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | 1. Merge & Sort <br> 2. Binary Search |
 | 34 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | Binary Search |
-| 46 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | Recursive |
+| 46 | [Permutation](https://leetcode.com/problems/permutations/) | Medium | Recursive + Backtracking |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | 1. Binary Search <br> 2. Newton's Method |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | Medium | 1. Built-in Sort <br> 2. Two Pointers (Dutch national flag problem) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | Two Pointers, Sliding Window |
+| 77 | [Combinations](https://leetcode.com/problems/combinations/) | Medium | Recursive + Backtracking |
 | 81 | [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/) | Medium | Binary Search |
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Easy | 1. Combine & Sort <br> 2. Two Pointers |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | 1. Greedy, find peak & valley <br> 2. Greedy, every greedy |
