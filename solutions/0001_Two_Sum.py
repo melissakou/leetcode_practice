@@ -1,35 +1,39 @@
 class Solution:
-    # 1. brute force O(n^2)
-    # def twoSum(self, nums, target):
-    #     for i in range(len(nums)):
-    #         for j in range(i+1, len(nums)):
-    #             if nums[i] + nums[j] == target:
-    #                 return [i, j]
 
-    # 2. hash table to store the seen numbers
+    # Solution 1. Naive Solution, Brute Force
+    # Time Complexity: O(n^2)
+    # Space Complexity: O(1) 
     def twoSum(self, nums, target):
-        seen_value = {}
-        for i, num in enumerate(nums):
-            remain = target - num
-            if remain in seen_value:
-                return [i, seen_value[remain]]
+        for i in range(len(nums)):
+            for j in range(i+1, len(nums)):
+                if nums[i] + nums[j] == target:
+                    return [i,j]
+
+    # Solution 2. Sorting + Two Pointers
+    # Time Complexity: O(nlogn) + O(n)
+    # Space Complexity: O(n)
+    def twoSum(self, nums, target):
+        sorted_idx = sorted(range(len(nums)), key=lambda k: nums[k])
+        l, r = 0, len(nums) - 1
+        while l <= r:
+            if nums[sorted_idx[l]] + nums[sorted_idx[r]] == target:
+                return [sorted_idx[l], sorted_idx[r]]
+            elif nums[sorted_idx[l]] + nums[sorted_idx[r]] > target:
+                r -= 1
             else:
-                seen_value[num] = i
+                l += 1
 
-    # 3. sort the list and use two pointers
-    # def twoSum(self, nums, target):
-    #     nums_sorted = [(value, i) for i, value in enumerate(nums)]
-    #     nums_sorted.sort()
+    # Solution 3. Hash Map
+    # Time Complexity: O(n)
+    # Space Complexity: O(n)
+    def twoSum(self, nums, target):
+        seen = {}
+        for i in range(len(nums)):
+            if target - nums[i] in seen:
+                return [seen[target - nums[i]], i]
+            seen[nums[i]] = i
 
-    #     left, right = 0, len(nums) - 1
-    #     while left < right:
-    #         curr_sum = nums_sorted[left][0] + nums_sorted[right][0]
-    #         if curr_sum == target:
-    #             return [nums_sorted[left][1], nums_sorted[right][1]]
-    #         elif curr_sum < target:
-    #             left += 1
-    #         else:
-    #             right -= 1
+
 
 
 
